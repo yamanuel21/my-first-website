@@ -511,6 +511,187 @@ footer {
 
 </section>
 
+<!-- PORTFOLIO -->
+<style>
+.portfolio-section {
+  padding: 90px 6%;
+  background: #080d18;
+  text-align: center;
+}
+
+.portfolio-section .section-label {
+  color: #168cff;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.portfolio-section h2 {
+  color: white;
+  font-size: 38px;
+  margin: 15px 0;
+}
+
+.portfolio-section .description {
+  color: #aebbd0;
+  max-width: 650px;
+  margin: 20px auto 45px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.portfolio-card {
+  background: #111e33;
+  border: 1px solid #293e5e;
+  border-radius: 18px;
+  overflow: hidden;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  border-color: #168cff;
+}
+
+.project-art {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+.art1 { background: linear-gradient(135deg,#111,#b88635); }
+.art2 { background: linear-gradient(135deg,#4b102b,#ed563f); }
+.art3 { background: linear-gradient(135deg,#101c50,#168cff); }
+.art4 { background: linear-gradient(135deg,#171717,#555); }
+.art5 { background: linear-gradient(135deg,#142e27,#43a889); }
+.art6 { background: linear-gradient(135deg,#34165c,#a34bdb); }
+
+.project-info {
+  padding: 22px;
+}
+
+.project-info h3 {
+  color: #168cff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  color: #b8c4d8;
+}
+
+.project-tag {
+  display: inline-block;
+  color: #168cff;
+  font-size: 12px;
+  margin-top: 12px;
+  letter-spacing: 1px;
+}
+
+@media(max-width:650px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-section h2 {
+    font-size: 30px;
+  }
+}
+</style>
+
+<section id="portfolio" class="portfolio-section">
+
+  <div class="section-label">MY CREATIVE WORK</div>
+
+  <h2>Selected Projects</h2>
+
+  <p class="description">
+    Explore my creative world. A collection of design,
+    branding and video editing projects.
+  </p>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <div class="project-art art1">
+        LUXURY LOGO
+      </div>
+      <div class="project-info">
+        <h3>Logo Design</h3>
+        <p>Creative logos and professional brand identity.</p>
+        <span class="project-tag">BRAND DESIGN</span>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="project-art art2">
+        POSTER DESIGN
+      </div>
+      <div class="project-info">
+        <h3>Poster Design</h3>
+        <p>Eye-catching posters and advertising graphics.</p>
+        <span class="project-tag">GRAPHIC DESIGN</span>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="project-art art3">
+        YOUTUBE THUMBNAIL
+      </div>
+      <div class="project-info">
+        <h3>Thumbnail Design</h3>
+        <p>Attractive thumbnails for YouTube creators.</p>
+        <span class="project-tag">YOUTUBE DESIGN</span>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="project-art art4">
+        VIDEO EDITING
+      </div>
+      <div class="project-info">
+        <h3>Video Editing</h3>
+        <p>Cinematic editing and creative visual storytelling.</p>
+        <span class="project-tag">VIDEO PRODUCTION</span>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="project-art art5">
+        BRAND IDENTITY
+      </div>
+      <div class="project-info">
+        <h3>Brand Identity</h3>
+        <p>Consistent visual identities for modern brands.</p>
+        <span class="project-tag">BRANDING</span>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="project-art art6">
+        SOCIAL MEDIA
+      </div>
+      <div class="project-info">
+        <h3>Social Media Design</h3>
+        <p>Creative posts and social media graphics.</p>
+        <span class="project-tag">DIGITAL DESIGN</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- SERVICES -->
 
 <section id="services">
