@@ -264,55 +264,51 @@ section {
 
 /* PORTFOLIO */
 
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 25px;
-}
 
-.project-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  overflow: hidden;
-  transition: .3s;
-}
+<div class="portfolio-grid">
 
-.project-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--blue);
-}
+  <article class="project-card">
+    <div class="project-image">
+      <img src="image/innovation.jpg" alt="Innovation Design">
+    </div>
+    <div class="project-info">
+      <h3>Innovation Design</h3>
+      <p>Creative Graphic Design.</p>
+    </div>
+  </article>
 
-.project-image {
-  height: 250px;
-  background: #171717;
-  overflow: hidden;
-}
+  <article class="project-card">
+    <div class="project-image">
+      <img src="image/thumbnail-design.jpg" alt="Thumbnail Design">
+    </div>
+    <div class="project-info">
+      <h3>Thumbnail Design</h3>
+      <p>Professional YouTube Thumbnails.</p>
+    </div>
+  </article>
 
-.project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: .5s;
-}
+  <article class="project-card">
+    <div class="project-image">
+      <img src="image/logo-design.jpg" alt="Logo Design">
+    </div>
+    <div class="project-info">
+      <h3>Logo Design</h3>
+      <p>Creative Logo Concepts.</p>
+    </div>
+  </article>
 
-.project-card:hover img {
-  transform: scale(1.06);
-}
+  <article class="project-card">
+    <div class="project-image">
+      <img src="image/creative-design.jpg" alt="Creative Design">
+    </div>
+    <div class="project-info">
+      <h3>Creative Design</h3>
+      <p>Modern Visual Design.</p>
+    </div>
+  </article>
 
-.project-info {
-  padding: 24px;
-}
+</div>
 
-.project-info h3 {
-  margin-bottom: 7px;
-}
-
-.project-info p {
-  color: var(--muted);
-  font-size: 14px;
-}
 
 /* SKILLS */
 
